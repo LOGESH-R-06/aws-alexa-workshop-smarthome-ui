@@ -70,10 +70,10 @@ export default function Device() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Smart Lamp
+            Smart switch
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Smart lamp controlled to Alexa.
+            Smart switch controlled by Alexa.
             Click the button to bind to your account.
           </Typography>
         </CardContent>
