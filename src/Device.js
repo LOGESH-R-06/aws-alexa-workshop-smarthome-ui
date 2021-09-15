@@ -20,7 +20,7 @@ import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 
 const useStyles = makeStyles({
   card: {
-    maxWidth: 345,
+    maxWidth: 445,
     margin: 30
   },
   media: {
@@ -43,7 +43,7 @@ export default function Device() {
     const deviceDetails = {
       thingName: thingName,
       username: currentUser.username,
-      description: 'Smart Lamp'
+      description: 'Smart switch'
     };
 
     const newDevice = await API.graphql(graphqlOperation(mutations.createDevice, {input: deviceDetails}));
