@@ -43,7 +43,7 @@ export default function Device() {
     const deviceDetails = {
       thingName: thingName,
       username: currentUser.username,
-      description: 'Smart switch'
+      description: 'Smart lamp'
     };
 
     const newDevice = await API.graphql(graphqlOperation(mutations.createDevice, {input: deviceDetails}));
