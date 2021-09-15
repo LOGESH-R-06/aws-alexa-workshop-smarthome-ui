@@ -42,7 +42,7 @@ function App() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            Alexa Workshop
+            iUTOMATE TEST
           </Typography>
           <Button color="inherit" onClick={logout}>Sign Out</Button>
         </Toolbar>
