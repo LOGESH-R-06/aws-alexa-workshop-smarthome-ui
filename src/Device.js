@@ -20,7 +20,7 @@ import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 
 const useStyles = makeStyles({
   card: {
-    maxWidth: 245,
+    maxWidth: 345,
     margin: 30
   },
   media: {
